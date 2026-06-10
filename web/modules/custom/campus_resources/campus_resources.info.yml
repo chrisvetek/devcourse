@@ -1,0 +1,5 @@
+name: Campus Resources
+type: module
+description: 'Displays and filters SMU campus Resources'
+core_version_requirement: ^10 || ^11
+package: Custom

@@ -1,0 +1,11 @@
+{
+  "phpSniffer.standard": "Drupal",
+  "phpSniffer.executablesFolder": "vendor/bin/",
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "[php]": {
+    "editor.defaultFormatter": "wongjn.php-sniffer"
+  },
+  "files.eol": "\n"
+}

@@ -1,0 +1,7 @@
+campus_resources.list:
+  path: '/campus-resources'
+  defaults:
+    _controller: '\Drupal\campus_resources\Controller\ResourceController::index'
+    _title: 'Campus Resources'
+  requirements:
+    _permission: 'access content'

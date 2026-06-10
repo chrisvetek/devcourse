@@ -1,0 +1,19 @@
+uuid: 788242f6-6675-4c6b-9347-08b44af05da8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_field_resource_type
+    - node.type.campus_resource
+id: node.campus_resource.field_field_resource_type
+field_name: field_field_resource_type
+entity_type: node
+bundle: campus_resource
+label: field_resource_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

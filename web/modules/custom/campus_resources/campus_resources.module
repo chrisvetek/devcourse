@@ -1,0 +1,14 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function campus_resources_theme() {
+  return [
+    'campus_resources_page' => [
+      'variables' => [
+        'resources' => NULL,
+      ],
+    ],
+  ];
+}

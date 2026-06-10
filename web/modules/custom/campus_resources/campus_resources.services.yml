@@ -1,0 +1,4 @@
+services:
+  campus_resources.resource_lookup:
+    class: Drupal\campus_resources\Service\ResourceLookupService
+    arguments: ['@entity_type.manager']

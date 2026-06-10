@@ -1,0 +1,5 @@
+name: 'development learning module'
+type: module
+core_version_requirement: ^11
+description: 'backend development learning module'
+package: 'Acquia backend dev course'

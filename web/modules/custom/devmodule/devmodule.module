@@ -1,0 +1,24 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * @file
+ * This file demonstrates how to use hook functions.
+ */
+
+/**
+ * Implements hook_cron().
+ */
+function devmodule_cron() {
+  \Drupal::messenger()->addMessage(t("Hello from devmodule cron hook! :) :)"));
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function devmodule_form_alter(&$form, FormStateInterface $form_state, $form_id) : void {
+  if ($form_id == 'node_article_edit_form') {
+    $form['actions']['submit']['#value'] = t("Save this awesome article!");
+  }
+}

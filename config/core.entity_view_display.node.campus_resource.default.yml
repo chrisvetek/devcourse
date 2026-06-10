@@ -1,0 +1,28 @@
+uuid: 6f0794e7-bc52-4fa0-80ed-405c09c09b59
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.campus_resource.field_field_resource_type
+    - node.type.campus_resource
+  module:
+    - user
+id: node.campus_resource.default
+targetEntityType: node
+bundle: campus_resource
+mode: default
+content:
+  field_field_resource_type:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

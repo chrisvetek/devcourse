@@ -1,0 +1,9 @@
+<div class="campus-resources">
+  <h2>{{ 'Campus Resources'|t }}</h2>
+  {% for resource in resources %}
+    <div class="resource-item">
+      <h3>{{ resource.title }}</h3>
+      <p>{{ resource.type }}</p>
+    </div>
+  {% endfor %}
+</div>
